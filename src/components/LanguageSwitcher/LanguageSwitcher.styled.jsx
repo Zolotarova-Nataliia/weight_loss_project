@@ -6,7 +6,12 @@ export const CustomSelect = styled(Select)`
   height: 32px;
   z-index: 120;
   left: 55px;
-  bottom: 2px;
+  bottom: 3px;
+  svg {
+    width: 30px;
+    height: 30px;
+    fill: #68B147;
+  }
   .react-select__control {
     cursor: pointer;
     background-color: transparent;
